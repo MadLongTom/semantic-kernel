@@ -222,12 +222,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions.OpenApi.Extension
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{EB2C141A-AE5F-4080-8790-13EB16323CEF}"
 	ProjectSection(SolutionItems) = preProject
+		src\InternalUtilities\src\Text\ExceptionJsonConverter.cs = src\InternalUtilities\src\Text\ExceptionJsonConverter.cs
 		src\InternalUtilities\src\Text\JsonOptionsCache.cs = src\InternalUtilities\src\Text\JsonOptionsCache.cs
 		src\InternalUtilities\src\Text\SseData.cs = src\InternalUtilities\src\Text\SseData.cs
 		src\InternalUtilities\src\Text\SseJsonParser.cs = src\InternalUtilities\src\Text\SseJsonParser.cs
 		src\InternalUtilities\src\Text\SseLine.cs = src\InternalUtilities\src\Text\SseLine.cs
 		src\InternalUtilities\src\Text\SseReader.cs = src\InternalUtilities\src\Text\SseReader.cs
-		src\InternalUtilities\src\Text\ExceptionJsonConverter.cs = src\InternalUtilities\src\Text\ExceptionJsonConverter.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{607DD6FA-FA0D-45E6-80BA-22A373609E89}"
@@ -466,6 +466,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agents.Bedrock", "src\Agents\Bedrock\Agents.Bedrock.csproj", "{8C658E1E-83C8-4127-B8BF-27A638A45DDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelContextProtocol", "samples\Demos\ModelContextProtocol\ModelContextProtocol.csproj", "{B16AC373-3DA8-4505-9510-110347CD635D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoInvokeTest", "AutoInvokeTest\AutoInvokeTest.csproj", "{917DF0A5-E888-4E5B-8E5B-11EEE5617F09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1266,6 +1268,12 @@ Global
 		{B16AC373-3DA8-4505-9510-110347CD635D}.Publish|Any CPU.Build.0 = Debug|Any CPU
 		{B16AC373-3DA8-4505-9510-110347CD635D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B16AC373-3DA8-4505-9510-110347CD635D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917DF0A5-E888-4E5B-8E5B-11EEE5617F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917DF0A5-E888-4E5B-8E5B-11EEE5617F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917DF0A5-E888-4E5B-8E5B-11EEE5617F09}.Publish|Any CPU.ActiveCfg = Release|Any CPU
+		{917DF0A5-E888-4E5B-8E5B-11EEE5617F09}.Publish|Any CPU.Build.0 = Release|Any CPU
+		{917DF0A5-E888-4E5B-8E5B-11EEE5617F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917DF0A5-E888-4E5B-8E5B-11EEE5617F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1439,6 +1447,7 @@ Global
 		{DAD5FC6A-8CA0-43AC-87E1-032DFBD6B02A} = {3F260A77-B6C9-97FD-1304-4B34DA936CF4}
 		{8C658E1E-83C8-4127-B8BF-27A638A45DDD} = {6823CD5E-2ABE-41EB-B865-F86EC13F0CF9}
 		{B16AC373-3DA8-4505-9510-110347CD635D} = {5D4C0700-BBB5-418F-A7B2-F392B9A18263}
+		{917DF0A5-E888-4E5B-8E5B-11EEE5617F09} = {FA3720F1-C99A-49B2-9577-A940257098BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FBDC56A3-86AD-4323-AA0F-201E59123B83}
