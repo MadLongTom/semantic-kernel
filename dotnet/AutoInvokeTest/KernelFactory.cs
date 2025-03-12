@@ -100,10 +100,7 @@ namespace AutoInvokeBufferTest
                         string output = defaultInterpolatedStringHandler.ToStringAndClear();
                         logger.LogInformation("FunctionCall:\r\n Role = {Role}\r\n Content = {Content}", new object[] { message.Role, output });
                     }
-                    else
-                    {
-                        logger.LogInformation("Completion:\r\n Role = {Role}\r\n Content = {Content}", new object[] { message.Role, message.Content });
-                    }
+                    logger.LogInformation("Completion:\r\n Role = {Role}\r\n Content = {Content}", new object[] { message.Role, message.Content });
                 }
                 else
                 {
